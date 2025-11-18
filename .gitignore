@@ -1,0 +1,75 @@
+# --------------------------
+# Rust / Cargo
+# --------------------------
+
+# Build output
+/target/
+
+# Cargo package files
+Cargo.lock
+*.crate
+
+# Rust integration tests output
+/tests/tmp/
+
+# Rustfmt backup files
+**/*.rs.bk
+
+# --------------------------
+# IDE / Editor
+# --------------------------
+
+# VSCode files
+.vscode/
+*.code-workspace
+
+# JetBrains
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# --------------------------
+# OS / System files
+# --------------------------
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux temporary files
+*~
+
+# --------------------------
+# Logs
+# --------------------------
+
+*.log
+logs/
+log/
+
+# NebulaChain runtime logs
+/tmp/nebula_node_*.log
+
+# --------------------------
+# Project-specific
+# --------------------------
+
+# Local node data directories
+/tmp/nebula_node_a
+/tmp/nebula_node_b
+/tmp/nebula_node_c
+
+# Any data created by ./scripts
+data/
+db/
+storage/
